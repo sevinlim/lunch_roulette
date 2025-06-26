@@ -1,0 +1,24 @@
+.place-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.new-place-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+}
+
+.new-place-container .MuiTextField-root {
+    flex: 1;
+    margin-right: 2em;
+}
+
+.MuiTable-root .place-list-cell--name .cell-flex-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
